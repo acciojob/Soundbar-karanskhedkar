@@ -1,1 +1,23 @@
 /*  your css code here. If applicable */
+body{
+  padding: 0px !important;
+  margin: 0px !important;
+}
+#buttons{
+  height: 100vh;
+  width: 100vw;
+  background-color: plum;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.btn,.stop{
+  height: 35px;
+  width: 70px;
+  background-color: purple;
+  color: white;
+}
+audio{
+  display: none;
+}
